@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Test</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>API Test</h1>
+    <div>
+      <h2>Get All Employees</h2>
+      <button id="getAllEmployees">Get All Employees</button>
+      <pre id="getAllEmployeesResult"></pre>
+    </div>
+    <div>
+      <h2>Get Single Employee</h2>
+      <input type="text" id="employeeId" placeholder="Enter Employee ID" />
+      <button id="getSingleEmployee">Get Single Employee</button>
+      <pre id="getSingleEmployeeResult"></pre>
+    </div>
+    <div>
+      <h2>Create Employee</h2>
+      <input type="text" id="employeeName" placeholder="Enter Name" />
+      <input type="text" id="employeeSalary" placeholder="Enter Salary" />
+      <input type="text" id="employeeAge" placeholder="Enter Age" />
+      <button id="createEmployee">Create Employee</button>
+      <pre id="createEmployeeResult"></pre>
+    </div>
+    <div>
+      <h2>Update Employee</h2>
+      <input type="text" id="updateEmployeeId" placeholder="Enter Employee ID" />
+      <input type="text" id="updateEmployeeName" placeholder="Enter New Name" />
+      <input type="text" id="updateEmployeeSalary" placeholder="Enter New Salary" />
+      <input type="text" id="updateEmployeeAge" placeholder="Enter New Age" />
+      <button id="updateEmployee">Update Employee</button>
+      <pre id="updateEmployeeResult"></pre>
+    </div>
+    <div>
+      <h2>Delete Employee</h2>
+      <input type="text" id="deleteEmployeeId" placeholder="Enter Employee ID" />
+      <button id="deleteEmployee">Delete Employee</button>
+      <pre id="deleteEmployeeResult"></pre>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
